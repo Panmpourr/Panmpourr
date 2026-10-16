@@ -12,9 +12,9 @@ I connect the plant floor to software: PLCs and field protocols on one side, C#/
 
 ### 🚀 Featured project
 
-#### [Industrial IoT Sensor Platform](https://github.com/Panmpourr/industrial-iot-sensor-platform) · *diploma thesis, graded 10/10*
+#### [Industrial IoT Sensor Platform](https://github.com/Panmpourr/industrial-iot-sensor-platform) · *evolved from my diploma thesis (graded 10/10)*
 
-An end-to-end IIoT telemetry platform: from PLCs and field devices to a live operator dashboard.
+An end-to-end IIoT telemetry platform: from PLCs and field devices to a live operator dashboard. It started as my diploma thesis (React, Node.js, Firebase/MySQL), which I then re-engineered into the platform below.
 
 - **Connectivity:** OPC UA subscriptions, Modbus TCP, MQTT (LoRaWAN / The Things Network), serial (Arduino) and REST
 - **Back end:** C# / ASP.NET Core (.NET 10) with a background service per sensor, JWT authentication and SignalR live push
